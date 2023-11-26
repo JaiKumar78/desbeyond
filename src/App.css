@@ -89,6 +89,10 @@ a{
   transform: scaleX(0.8);
 }
 
+
+/* <--NAVBAR--> */
+
+
 .home{
   width: 100%;
 }
@@ -108,11 +112,14 @@ a{
 .title .head h1{
   font-size: 6rem;
   width: min-content;
+  font-family: 'Gloock', serif;
+  font-weight: 400;
 }
 
 .title .head p{
   font-size: 25px;
   width: 621px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .content{ 
@@ -130,6 +137,7 @@ a{
   width: min-content;
   margin: 25px;
   padding: 12px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .works img{
@@ -148,12 +156,14 @@ a{
   margin: 7rem;
   padding: 25px;
   color: #22333B;
+  font-family: 'Gloock', sans-serif;
 }
 
 .moreinfo div{
   margin: 2rem 0;
   font-size: 20px;
   color: white;
+  font-family: 'Nunito', sans-serif;
 }
 
 .span1{
@@ -205,11 +215,13 @@ a{
   color: #22333B;
   font-weight: 500;
   margin: 10px;
+  font-family: 'Gloock', sans-serif;
 }
 
 .mininfo{
   font-size: 25px;
   margin: 10px 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 .remainder{
@@ -217,12 +229,18 @@ a{
   padding: 3rem;
   text-align: center;
   font-size: 2rem;
+  font-family: 'Gloock', sans-serif;
 }
 
 .remainder p{
   font-size: 25px;
   margin: 20px 0;
+  font-family: 'Nunito', sans-serif;
 }
+
+
+/* <--Home--> */
+
 
 .header{
   background-color: #d3f2ff;
@@ -313,6 +331,10 @@ a{
   margin-bottom: 10px;
 }
 
+
+/* <--Contact--> */
+
+
 .about{
   position: relative;
   display: flex;
@@ -356,6 +378,10 @@ a{
   width: 500px;
   height: 700px;
 }
+
+
+/* <--About--> */
+
 
 .services h1{ 
   margin: 2rem;
@@ -406,6 +432,10 @@ a{
   margin: 20px 20px 20px 0;
   font-size: 1.2rem;
 }
+
+
+/* <--Services--> */
+
 
 @media (max-width: 450px) {
   .hamburg{
